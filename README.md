@@ -116,8 +116,3 @@ Parâmetros:
 ano: O ano dos veículos a serem contados pela década.
 Resposta: Um objeto GenericResponse contendo a quantidade de veículos da década do ano especificado.
 
-
-
-OBS: não foi implementado front-end e nem feito testes unitários, tais requisitos exigem um tempo a mais de que não dispus no momento. 
-Att.
-Fábio Fernandes da Silva
