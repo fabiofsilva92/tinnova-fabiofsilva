@@ -21,6 +21,8 @@ Apenas algumas marcas estão sendo aceitas, podendo ser extendida de acordo com 
 Marcas aceitas:
 "Audi", "BMW", "Chevrolet", "Ford", "Honda", "Toyota"
 
+Foi implementado com banco de dados H2 e flyway para inserção de dados iniciais.
+
 Endpoints
 
 GET /veiculos
