@@ -1,3 +1,7 @@
+OBS: não foi implementado front-end e nem feito testes unitários, tais requisitos exigem um tempo a mais de que não dispus no momento. 
+Att. Fábio Fernandes da Silva
+
+
 EX1:
 Porcentagem de eleitores
 
@@ -13,6 +17,11 @@ Soma dos multiplois de 3 e 5
 EX5:
 Rest de veículos
 
+Apenas algumas marcas estão sendo aceitas, podendo ser extendida de acordo com a necessidade.
+Marcas aceitas:
+"Audi", "BMW", "Chevrolet", "Ford", "Honda", "Toyota"
+
+Foi implementado com banco de dados H2 e flyway para inserção de dados iniciais.
 
 Endpoints
 
@@ -99,6 +108,8 @@ Resposta: Um objeto GenericResponse contendo a quantidade de veículos da marca 
 
 GET /veiculos?ano={ano}
 Recupera a quantidade de veículos por década de ano.
+
+Ao enviar um ano, é identificado a decada da qual pertence e irá trazer a quantidade de veiculos daquela decada.
 
 Parâmetros:
 
